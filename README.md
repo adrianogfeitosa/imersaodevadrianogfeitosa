@@ -1,4 +1,4 @@
-## ** Projeto #leg.AI.liza! - Seu guia para o mundo da IA no Congresso**
+## **Projeto #leg.AI.liza! - Seu guia para o mundo da IA no Congresso**
 **Projeto realizado durante a ImersãoDev da Alura com Google Gemini - 07.09.2024**
 **Autor:** Adriano Gonçalves Feitosa
 **Instrutores:** Rafaella Ballerini, Guilherme Lima e Luciano Martins
