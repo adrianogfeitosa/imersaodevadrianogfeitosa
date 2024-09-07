@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>leg.AI.liza!</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulosuperior">
+        <span class="leg">#leg</span>
+        <span class="AI">.AI.</span>
+        <span class="liza">liza!🤖</span>  
+    </h1> 
+        <h1 class="subtitulo">Faça a sua voz ser ouvida nas discussões sobre IA no Congresso Nacional...</h1>
+        <h1 class="subsubtitulo">Envie sugestões aos senadores e deputados federais! Fiscalize! Seja ouvido!</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o que você quer saber, human@..." id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+        </main>
+ 
+        <script>
+            // Esta funcionalidade de pesquisar usando a tecla "Enter" foi sugerida pelo Google Gemini 
+            const campoPesquisa = document.getElementById('campo-pesquisa');
+            const botaoPesquisar = document.querySelector('button');
+          
+            campoPesquisa.addEventListener('keypress', (event) => {
+              if (event.key === 'Enter') {
+                botaoPesquisar.click();
+              }
+            });
+          
+            function pesquisar() {
+              // Aqui você colocaria a lógica da sua pesquisa
+              const termoPesquisa = campoPesquisa.value;
+              console.log('Você pesquisou por:', termoPesquisa);
+            }
+          </script>  
+    
+    <footer>
+        <p>Aviso: Esta aplicação utiliza informações parcialmente compiladas pelo modelo de inteligência artificial generativa Google Gemini, em cuidadosa colaboração com inteligência e criatividade humanas!</p>
+        <p>2024 - #leg.AI.liza! Projeto de Adriano Gonçalves Feitosa, realizado durante a ImersãoDev da Alura. Todos os direitos reservados.</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
